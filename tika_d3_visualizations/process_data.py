@@ -4,9 +4,6 @@ import csv
 import os
 
 def create_stacked_area_chart(input_csv):
-    # Your Python code to process data and generate JSON for the chart goes here
-    # Replace this placeholder code with your actual implementation
-     # Check if the input CSV file exists
     
     if not os.path.isfile(input_csv):
         print(f"Error: Input CSV file '{input_csv}' not found")
